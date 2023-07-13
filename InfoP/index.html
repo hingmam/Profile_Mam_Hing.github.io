@@ -1188,8 +1188,46 @@ button {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link  -->
-<script src="">
 
+
+<!-- function for paused video-->
+<script> 
+    var myVideo = document.getElementById("video1"); 
+    
+    function controls() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    } 
+    
+    var myVideo = document.getElementById("video2"); 
+    
+    function controls() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    } 
+    
+    var myVideo = document.getElementById("video3"); 
+    
+    function controls() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    } 
+    
+    var myVideo = document.getElementById("video4"); 
+    
+    function controls() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    } 
+    
 $(document).ready(function(){
 
 $('#menu').click(function(){
@@ -1238,45 +1276,6 @@ $('a[href*="#"]').on('click',function(e){
 });
 
 });
-</script>
-
-<!-- function for paused video-->
-<script> 
-    var myVideo = document.getElementById("video1"); 
-    
-    function controls() { 
-      if (myVideo.paused) 
-        myVideo.play(); 
-      else 
-        myVideo.pause(); 
-    } 
-    
-    var myVideo = document.getElementById("video2"); 
-    
-    function controls() { 
-      if (myVideo.paused) 
-        myVideo.play(); 
-      else 
-        myVideo.pause(); 
-    } 
-    
-    var myVideo = document.getElementById("video3"); 
-    
-    function controls() { 
-      if (myVideo.paused) 
-        myVideo.play(); 
-      else 
-        myVideo.pause(); 
-    } 
-    
-    var myVideo = document.getElementById("video4"); 
-    
-    function controls() { 
-      if (myVideo.paused) 
-        myVideo.play(); 
-      else 
-        myVideo.pause(); 
-    } 
      
     </script>
     <!--function for paused video end .-->
